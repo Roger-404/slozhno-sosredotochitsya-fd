@@ -10,6 +10,11 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  font-family: 'IBM Plex mono', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 130%;
+  color: var(--color-light);
 }
 
 h1,
@@ -20,6 +25,15 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 18px;
 }
 
 ul {
@@ -39,4 +53,17 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
 }
+
+main {
+  padding-inline: var(--section-padding-inline);
+  margin-block: var(--main-margin-block);
+}
+
+section {
+  padding-block: var(--section-padding-block);
+}
+
+
+
