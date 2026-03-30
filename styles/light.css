@@ -6,21 +6,11 @@
   --color-light: #353430;
   --color-dark: #353430;
   --color-button-hover: rgba(50, 49, 45, 0.4);
-  
-  .decorated-zone {
-    color: var(--color-dark);
-  }
+  --color-bg: #fff1f7;
+  --color-menu-decor: #353430;
 
   .header__decor {
     display: none;
-  }
-
-  .section__title {
-    color: var(--color-dark);
-  }
-
-  .header__theme-menu-button {
-    color: var(--color-dark);
   }
 }
 
@@ -33,21 +23,11 @@
     --color-light: #353430;
     --color-dark: #353430;
     --color-button-hover: rgba(50, 49, 45, 0.4);
-
-    .decorated-zone {
-      color: var(--color-dark);
-    }
+    --color-bg: #fff1f7;
+    --color-menu-decor: #353430;
 
     .header__decor {
       display: none;
-    }
-
-    .section__title {
-      color: var(--color-dark);
-    }
-
-    .header__theme-menu-button {
-      color: var(--color-dark);
     }
   }
 }

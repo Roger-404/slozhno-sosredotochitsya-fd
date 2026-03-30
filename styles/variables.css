@@ -10,5 +10,16 @@
   --section-padding-block: 25px;
   --section-padding-inline: 10px;
   --main-margin-block: 15px;
+
+  /* useless variabbles*/
+  --color-bg: #000028;
+  --color-menu-decor: #ff0070;
 }
 
+@media (width >= 768px) {
+  :root {
+    --section-padding-inline: 20px;
+    --section-padding-block: 40px;
+    --main-margin-block: 20px;
+  }
+}
